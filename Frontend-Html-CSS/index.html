@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Contact us</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<small>Enter message and click button Send</small>
+<div class="wrapper centered">
+  <article class="letter">
+    <div class="side">
+      <h1>Contact us</h1>
+      <br /> <br /> 
+      <p>
+        <textarea id="message" placeholder="Your message"></textarea>
+      </p>
+    </div>
+    <div class="side">
+      <p>
+        <input type="text" id="name" placeholder="Your name" >
+      </p>
+      <p>
+        <input type="email" id="email" placeholder="Your email" >
+      </p>
+      <p>
+        <button id="sendLetter">Send</button>
+      </p>
+    </div>
+  </article>
+  <div class="envelope front"></div>
+  <div class="envelope back"></div>
+</div>
+<p class="result-message centered" id="successmessage"></p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

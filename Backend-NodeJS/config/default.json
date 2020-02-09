@@ -1,0 +1,9 @@
+{
+    "AWS": {
+      "accessKeyId":"Your_AccessKeyId",
+      "secretAccessKey":"Your_SecreatKEY",
+      "region":"ap-south-1",
+      "SenderEmailId":"<atique1224@gmail.com>"
+    },
+    "port": 3500
+  }
