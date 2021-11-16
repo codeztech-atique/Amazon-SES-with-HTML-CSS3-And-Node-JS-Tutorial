@@ -9,7 +9,7 @@
   "author": "atique@codezTech",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.614.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "^1.19.0",
     "config": "^3.2.5",
     "cors": "^2.8.5",
